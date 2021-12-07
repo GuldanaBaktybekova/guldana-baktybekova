@@ -1,1 +1,18 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
 
+.padding {
+  height: 80px;
+ 
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.dis-flex {
+  display: flex;
+  justify-content: space-between;
+}
