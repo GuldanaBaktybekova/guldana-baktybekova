@@ -4,11 +4,12 @@ body {
 * {
   box-sizing: border-box;
 }
-
+.nav {
+  background-color: white;
+}
 .padding {
-
   height: 80px;
- 
+
   left: 0;
   right: 0;
   top: 0;
@@ -17,22 +18,43 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.a-btn {
+  margin-right: 102px;
+}
 .a-btn a {
   padding: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   font-style: normal;
-  line-height: 19,2px;
+  line-height: 19, 2px;
+  text-decoration: none;
+  color: black;
 }
 .a-btn button {
+  width: 93px;
+  height: 51px;
+
+  margin: 14px;
+
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  border: none;
+}
+.a-btn button a {
   width: 49px;
   height: 20px;
-  top: 15px;
-  left: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  line-height: 19,2px;
-  fon
+  line-height: 19, 2px;
+  font-size: 16px;
+  padding: 10px;
+}
+.pos-absol-span {
+  padding: 20px;
+}
+header {
+  background-color: grey;
+  padding: 200px;
 }
