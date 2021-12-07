@@ -6,6 +6,7 @@ body {
 }
 
 .padding {
+
   height: 80px;
  
   left: 0;
@@ -15,4 +16,9 @@ body {
 .dis-flex {
   display: flex;
   justify-content: space-between;
+}
+.a-btn a{
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
