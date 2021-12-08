@@ -4,6 +4,20 @@ body {
 * {
   box-sizing: border-box;
 }
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  margin: 0 -0.5rem;
+}
+[class^="col"] {
+  padding: 0 0.5rem;
+}
+.col {
+  flex: 1 0 0;
+}
 .nav {
   background-color: white;
 }
