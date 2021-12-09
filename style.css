@@ -31,9 +31,10 @@ body {
 .dis-flex {
   display: flex;
   justify-content: space-between;
+
 }
 .a-btn {
-  margin-right: 102px;
+  margin-right: 23px;
 }
 .a-btn a {
   padding: 30px;
@@ -65,8 +66,8 @@ body {
   font-size: 16px;
   padding: 10px;
 }
-.pos-absol-span {
-  padding: 20px;
+.img-logo {
+  padding: 20px 0 20px 30px;
 }
 
 .grey-head {
