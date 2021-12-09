@@ -81,7 +81,7 @@ body {
    line-height: 57,6px;
    font-family: "Roboto", sans-serif;
    font-weight: 400;
-   padding: 50px;
+   
  }
  .grey-head p {
    font-size: 18px;
@@ -90,7 +90,12 @@ body {
    line-height: 29px;
    color: 
    #55524E;
-   padding: 50px;
+   
  }
- 
+ .grey-head img {
+   margin-right: 30px;
+ }
+ .padd {
+   padding: 100px 60px 60px 70px;
+ }
  
