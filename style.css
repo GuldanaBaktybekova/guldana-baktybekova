@@ -89,9 +89,9 @@ body {
   line-height: 29px;
   color: #55524e;
 }
-.grey-head img {
-  margin-right: 30px;
-}
+ .img-girl {
+   margin-right: 30px;
+ }
 .padd {
   padding: 100px 60px 60px 70px;
 }
@@ -100,10 +100,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 600px;
-  padding: 20px;
+  width: 700px;
+  padding: 15px;
+  background-color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 50px;
+  left: 70px;
 }
 .small-nav span {
   color: #787573;
