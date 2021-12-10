@@ -121,8 +121,11 @@ body {
  .small-nav p {
    font-size: 13px;
  }
- .small-nav button {
+ .small-nav button a{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  text-decoration: none;
+  color: black;
+  
  }
