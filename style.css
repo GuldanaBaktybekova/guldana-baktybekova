@@ -10,7 +10,7 @@ body {
 }
 .row {
   display: flex;
-  margin: 0 -0.5rem;
+ 
 }
 [class^="col"] {
   padding: 0 0.5rem;
@@ -137,3 +137,4 @@ body {
   padding: 20px 50px;
   border: none;
 }
+
