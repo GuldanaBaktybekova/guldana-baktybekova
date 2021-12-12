@@ -8,6 +8,50 @@ body {
   width: 900px;
   margin: 0 auto;
 }
+.col-1 {
+  flex: 0 0 8.33333333%;
+ 
+}
+.col-2 {
+  flex: 0 0 16.66666667%;
+}
+.col-3 {
+  flex: 0 0 25%;
+  
+}
+.col-4 {
+  flex: 0 0 33.33333333%;
+}
+.col-5 {
+  flex: 0 0 41.66666667%;
+
+}
+.col-6 {
+  flex: 0 0 50%;
+
+}
+.col-7 {
+  flex: 0 0 58.22222222%;
+  
+}
+.col-8 {
+  flex: 0 0 66.66666667%;
+}
+.col-9 {
+  flex: 0 0 75%;
+  
+}
+.col-10 {
+  flex: 0 0 83.11111111%;
+}
+.col-11 {
+  flex: 0 0 91.66666667%;
+  
+}
+.col-12 {
+  flex: 0 0 100%;
+  
+}
 .row {
   display: flex;
 }
@@ -171,17 +215,42 @@ body {
   font-size: 32px;
 }
 .h2-ap a {
-  color: 
-  #000000;
+  color: #000000;
   text-decoration: none;
   font-size: 16px;
 }
 
-
 .main-pink {
-  background-color:  #FBEDE4;;
+  background-color: #fbede4;
 }
 .main-pink img {
   float: left;
+  margin-right: 10px;
+}
+.col-img {
+  padding: 50px 20px 20px 60px;
+}
+.col-right {
+  padding: 20px;
+  padding-top: 150px;
+ 
+}
+.col-right h2 {
+  font-weight: 400;
+  font-size: 32px;
+}
+.col-right h4 {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 5px;
+}
+.col-right p {
+  padding: 5px;
+  padding-top: 0;
+  line-height: 25px;
+  margin-top: 0;
+}
+.col-right div {
   margin: 10px;
+  padding: 10px;
 }
