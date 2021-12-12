@@ -229,7 +229,7 @@ body {
 }
 .col-right {
   padding: 0;
-  padding-top: 150px;
+  padding-top: 100px;
  
 }
 .col-right h2 {
@@ -247,7 +247,21 @@ body {
   line-height: 25px;
   margin-top: 0;
 }
-.col-right .d-flex {
+ .d-flex {
   display: flex;
 }
+.img-margin {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.p-margin {
+  margin-bottom: 20px;
+}
 
+
+
+
+
+.main-green {
+  background-color: #194240;
+}
