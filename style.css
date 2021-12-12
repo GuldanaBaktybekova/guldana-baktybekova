@@ -10,7 +10,6 @@ body {
 }
 .row {
   display: flex;
- 
 }
 [class^="col"] {
   padding: 0 0.5rem;
@@ -21,6 +20,7 @@ body {
 .nav {
   background-color: white;
 }
+
 .padding {
   height: 80px;
 
@@ -58,8 +58,7 @@ body {
 .a-btn button a {
   width: 49px;
   height: 20px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   font-style: normal;
   line-height: 19, 2px;
   font-size: 16px;
@@ -79,19 +78,16 @@ body {
 .grey-head h1 {
   font-size: 48px;
   line-height: 57, 6px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
 }
 .grey-head p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   line-height: 29px;
   color: #55524e;
 }
- .img-girl {
-   margin-right: 30px;
- }
+.img-girl {
+  margin-right: 30px;
+}
 .padd {
   padding: 100px 60px 60px 70px;
 }
@@ -103,8 +99,7 @@ body {
   width: 700px;
   padding: 15px;
   background-color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   border-radius: 8px;
   position: absolute;
   bottom: 50px;
@@ -118,12 +113,9 @@ body {
   font-size: 13px;
 }
 .small-nav button a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   text-decoration: none;
   color: white;
- 
 }
 .small-nav button img {
   position: relative;
@@ -131,10 +123,65 @@ body {
 }
 
 .small-nav button {
-  background-color: 
-  #08786C;
+  background-color: #08786c;
   border-radius: 8px;
   padding: 20px 50px;
   border: none;
 }
 
+.padding-col {
+  padding: 20px 70px;
+}
+
+.main-first h4 {
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.main-first p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #55524e;
+}
+
+.font-roboto-400 {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+
+  font-style: normal;
+}
+
+.h2-ap {
+  padding: 70px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.h2-ap p {
+  align-content: center;
+  font-size: 19px;
+}
+.h2-ap h2 span {
+  font-weight: 700;
+}
+.h2-ap h2 {
+  font-weight: 400;
+  font-size: 32px;
+}
+.h2-ap a {
+  color: 
+  #000000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+.main-pink {
+  background-color:  #FBEDE4;;
+}
+.main-pink img {
+  float: left;
+  margin: 10px;
+}
