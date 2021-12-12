@@ -222,16 +222,13 @@ body {
 
 .main-pink {
   background-color: #fbede4;
-}
-.main-pink img {
-  float: left;
-  margin-right: 10px;
+  
 }
 .col-img {
   padding: 50px 20px 20px 60px;
 }
 .col-right {
-  padding: 20px;
+  padding: 0;
   padding-top: 150px;
  
 }
@@ -250,7 +247,7 @@ body {
   line-height: 25px;
   margin-top: 0;
 }
-.col-right div {
-  margin: 10px;
-  padding: 10px;
+.col-right .d-flex {
+  display: flex;
 }
+
