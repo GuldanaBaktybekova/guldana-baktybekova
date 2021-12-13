@@ -334,5 +334,10 @@ body {
 
 
 .main-black {
-  background-color: black;
+  background-color: 
+  #1B1918;
+  padding: 80px;
+}
+.h1-black {
+  color: white;
 }
