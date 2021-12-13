@@ -140,7 +140,7 @@ body {
   position: absolute;
   bottom: 50px;
   left: 70px;
-  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);
 }
 .small-nav span {
   color: #787573;
@@ -191,7 +191,7 @@ body {
   font-style: normal;
 }
 .color-green {
-  color: #08786C;
+  color: #08786c;
   text-decoration: none;
 }
 .h2-ap {
@@ -226,6 +226,7 @@ body {
 .col-right {
   padding: 0;
   padding-top: 100px;
+  padding-right: 70px;
 }
 .col-right h2 {
   font-weight: 400;
@@ -277,11 +278,61 @@ body {
 }
 .card img {
   width: 285px;
-
 }
 .card p {
   padding-left: 10px;
 }
 .lamp {
-  padding: 50px 0 0 170px ;
+  padding: 50px 0 0 170px;
+}
+
+.main-white {
+  padding: 80px 80px 0 80px;
+}
+.main-white h2 {
+  font-size: 32px;
+  padding-left: 8px;
+}
+.col-style {
+  border: 1px solid #cecdca;
+  border-radius: 8px;
+  padding: 20px;
+  height: 350px;
+  width: px;
+  
+}
+.col-style span {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 16px;
+}
+.sol-size h4 {
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+
+}
+.col-style p {
+  line-height: 25px;
+}
+.col-style img {
+  padding-top: 15px;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px 20px;
+}
+
+.frame12 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+.main-black {
+  background-color: black;
 }
