@@ -340,4 +340,13 @@ body {
 }
 .h1-black {
   color: white;
+  padding: 10px;
 }
+.h1-black h1 {
+   font-size: 32px;
+}
+.h1-black p {
+  line-height: 25px;
+}
+
+
