@@ -388,10 +388,56 @@ footer {
   background-color: #194240;
 }
 
-.footer-green .col6-first {
+.footer-green h5 {
   font-size: 14px;
-  color: #FFFFFF;
+  color:rgba(255, 255, 255, 0.8);
+  ;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
+
+.ft-col a {
+   color: rgba(255, 255, 255, 0.6);
+   ;
+   text-decoration: none;
+   font-size: 12px;
+   font-family: "Roboto", sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   line-height: 25px;
+}
+.col6-first {
+  padding: 80px 200px 80px 80px;
+}
+.col6-style {
+  padding: 50px 80px 80px 80px;
+}
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 80px
+  30px;
+}
+
+.footer-end p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-end div:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-end img {
+  padding: 8px;
+}
+
+.line {
+  margin: 10px 20px 10px 50px;
+}
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+
+} */
