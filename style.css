@@ -91,7 +91,7 @@ body {
   border-radius: 8px;
   border: none;
 }
-.a-btn button a {
+.btn-nav a {
   width: 49px;
   height: 20px;
 
@@ -128,18 +128,19 @@ body {
   padding: 100px 60px 60px 70px;
 }
 
+
 .small-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 700px;
+  width: 650px;
   padding: 15px;
   background-color: white;
 
   border-radius: 8px;
-  position: absolute;
-  bottom: 50px;
-  left: 70px;
+  position: relative;
+  bottom: 250px;
+  left: 80px;
   box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12);
 }
 .small-nav span {
@@ -441,3 +442,22 @@ footer {
   display: inline-block;
 
 } */
+
+.rec16 {
+ 
+  padding: 10px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .navbar {
+   width: 600px;
+   
+  }
+  .a-btn .a {
+    display: none;
+  }
+}
