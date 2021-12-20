@@ -450,14 +450,3 @@ footer {
 
 
 
-
-
-@media (max-width: 600px) {
-  .navbar {
-   width: 600px;
-   
-  }
-  .a-btn .a {
-    display: none;
-  }
-}
