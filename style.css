@@ -171,7 +171,7 @@ body {
   padding: 20px;
 }
 .main-first {
-  padding: 80px;
+  padding: 20px 80px 80px 80px;
 }
 .main-first h4 {
   line-height: 25px;
@@ -199,6 +199,7 @@ body {
   padding-left: 30px;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .h2-ap p {
@@ -211,6 +212,7 @@ body {
 .h2-ap h2 {
   font-weight: 400;
   font-size: 32px;
+ 
 }
 .h2-ap a {
   color: #000000;
@@ -437,16 +439,24 @@ footer {
 .line {
   margin: 10px 20px 10px 50px;
 }
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-
-} */
 
 .rec16 {
  
   padding: 10px;
 }
-
-
+.dis-none i {
+  font-size: 35px;
+  
+  display: none;
+}
+@media (max-width: 768px) {
+  .dis-none i {
+    display: block;
+  }
+  .a {
+    display: none;
+  }
+  .div-nav {
+   max-width: 768px;
+  }
 
