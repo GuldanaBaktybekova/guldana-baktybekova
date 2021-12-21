@@ -449,6 +449,9 @@ footer {
   
   display: none;
 }
+main, footer, nav, header {
+  width: 100%;
+}
 @media (max-width: 768px) {
   .dis-none i {
     display: block;
