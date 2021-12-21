@@ -459,5 +459,7 @@ footer {
   .div-nav {
    max-width: 768px;
   }
-
+  main {
+    max-width: 768px;
+  }
 }
