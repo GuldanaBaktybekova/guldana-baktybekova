@@ -478,6 +478,7 @@ main, footer, nav, header {
   .main-first .row, .h2-ap, .card .row, .main-white .row, .row-black1 .row, .footer-green .row, .footer-end {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
   }
  
   .logos {
