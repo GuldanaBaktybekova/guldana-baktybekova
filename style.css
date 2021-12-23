@@ -457,7 +457,7 @@ main, footer, nav, header {
 
 .dis-flex-wrap {
  flex-wrap: wrap;
- justify-content: center;
+ 
 }
 
 /* @media (max-width: 600px) {
@@ -475,10 +475,30 @@ main, footer, nav, header {
     display: flex;
     flex-wrap: wrap;
   } */
-  .main-first .row {
+  .main-first .row, .h2-ap, .card .row, .main-white .row, .row-black1 .row, .footer-green .row, .footer-end {
     display: flex;
     flex-direction: column;
   }
-}
-
+ 
+  .logos {
+    display: none;
+  }
+  .col-ul .row {
+    flex-wrap: wrap;
+  }
+ 
   
+  
+  .col-img {
+    display: none;
+  }
+    
+}
+@media (max-width: 1200px) {
+  .col-right {
+    display: inline;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+  }
+}
