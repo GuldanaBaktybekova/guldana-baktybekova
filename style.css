@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
 }
 .container {
-  width: 900px;
+  width: 100%;
   margin: 0 auto;
 }
 .col-1 {
@@ -441,12 +441,50 @@ header {
   width: 100%;
   margin: 0;
 }
-
 .dis-flex-wrap {
   flex-wrap: wrap;
 }
-
-@media (max-width: 800px) {
+@media (max-width: 400px) {
+  .padd h1{
+    font-size: 45px;
+  }
+  .col-right h2 {
+    font-size: 28px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .col-style {
+    line-height: 0;
+    font-size: 8px;
+  }
+  .padd {
+    padding: 0;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .main-green h1 {
+    font-size: 40px;
+  }
+  .img-bed {
+    padding: 0 10px;
+  }
+  .main-black h1 {
+    font-size: 29px;
+  } 
+  .main-black p {
+    font-size: 14px;
+  }
+  .main-black h5, .ul-style {
+    padding: 1px;
+  }
+  .main-first h2, span {
+    font-size: 28px;
+  }
+  .main-white {
+    padding: 0;
+  }
+@media (max-width: 880px) {
   .main-first .row,
   .h2-ap,
   .card .row,
@@ -461,7 +499,20 @@ header {
     padding: auto;
     margin: auto;
   }
-
+  
+  .main-pink .row .col:first-of-type {
+    flex: 0;
+  }
+  .grey-head .col:nth-of-type(2) {
+    flex: 0;
+  }
+  .a {
+    display: none;
+  }
+  
+  .dis-none {
+    display: block;
+  }
   .logos {
     display: none;
   }
@@ -472,10 +523,17 @@ header {
     padding-top: 5px;
   }
   .main-white {
-    font-size: 14px;
+    font-size: 16px;
   }
-  .col-style {
-    line-height: 5px;
+  .col-style span {
+    font-size: 15px;
+  }
+  .card {
+    padding: 0;
+
+  }
+  .card p {
+    font-size: 13px;
   }
 
   .line {
@@ -489,19 +547,31 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
   }
+ 
+  .img-girl {
+    display: none;
+  }
+  
+}
+@media (max-width: 1300px) {
+  .small-nav {
+    display: none;
+  }
+  img {
+    max-width: 50%;
+  }
   .img-girl {
     max-width: 100%;
     height: auto;
   }
-  .small-nav {
-    display: none;
+  .main-first {
+    padding: 0;
   }
 }
 @media (max-width: 1100px) {
-  .img-girl {
-    display: none;
-  }
+  
   .col-img {
     display: none;
   }
+}
 }
