@@ -444,47 +444,8 @@ header {
 .dis-flex-wrap {
   flex-wrap: wrap;
 }
-@media (max-width: 400px) {
-  .padd h1{
-    font-size: 45px;
-  }
-  .col-right h2 {
-    font-size: 28px;
-  }
-  img {
-    max-width: 100%;
-  }
-  .col-style {
-    line-height: 0;
-    font-size: 8px;
-  }
-  .padd {
-    padding: 0;
-    padding-right: 1px;
-    padding-left: 1px;
-  }
-  .main-green h1 {
-    font-size: 40px;
-  }
-  .img-bed {
-    padding: 0 10px;
-  }
-  .main-black h1 {
-    font-size: 29px;
-  } 
-  .main-black p {
-    font-size: 14px;
-  }
-  .main-black h5, .ul-style {
-    padding: 1px;
-  }
-  .main-first h2, span {
-    font-size: 28px;
-  }
-  .main-white {
-    padding: 0;
-  }
-@media (max-width: 880px) {
+
+@media (max-width: 800px) {
   .main-first .row,
   .h2-ap,
   .card .row,
@@ -499,7 +460,9 @@ header {
     padding: auto;
     margin: auto;
   }
-  
+  .h2-ap {
+    padding-top: 50px;
+  }
   .main-pink .row .col:first-of-type {
     flex: 0;
   }
@@ -509,7 +472,13 @@ header {
   .a {
     display: none;
   }
-  
+  .main-green .sp p {
+    padding: 10px 80px;
+   
+  }
+  .card div:first-of-type p {
+    padding: 10px 80px;
+  }
   .dis-none {
     display: block;
   }
@@ -539,6 +508,10 @@ header {
   .line {
     display: none;
   }
+  .a-btn {
+    padding: 0;
+  }
+  
 }
 @media (max-width: 1200px) {
   .col-right {
@@ -557,21 +530,77 @@ header {
   .small-nav {
     display: none;
   }
-  img {
-    max-width: 50%;
-  }
+ 
   .img-girl {
     max-width: 100%;
     height: auto;
   }
   .main-first {
-    padding: 0;
+    padding: 10px;
   }
+  
 }
 @media (max-width: 1100px) {
   
   .col-img {
     display: none;
   }
+  
 }
+@media (max-width: 600px) {
+  .padd h1{
+    font-size: 45px;
+  }
+  .grey-head {
+    height: 500px;
+    
+  }
+  .col-right h2 {
+    font-size: 28px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .col-style {
+    line-height: 0;
+    font-size: 12px;
+  }
+  .padd {
+    padding: 70px;
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .main-green h1 {
+    font-size: 40px;
+  }
+  .img-bed {
+    padding: 0 10px;
+  }
+  .main-black h1 {
+    font-size: 29px;
+  } 
+  .main-black p {
+    font-size: 14px;
+  }
+  .main-black h5, .ul-style {
+    padding: 1px;
+  }
+  .main-first h2, span {
+    font-size: 28px;
+  }
+  .main-white {
+    padding: 0;
+  }
+ 
+  .col6-style {
+    padding: 0;
+  }
+  .col6-first {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer-end {
+    padding: 10px;
+  }
 }
