@@ -225,12 +225,17 @@ body {
 }
 .col-img {
   padding: 50px 20px 20px 60px;
-
+  
+}
+.col-img img {
+  height: auto;
+  max-width: 100%;
 }
 .col-right {
   padding: 0;
   padding-top: 100px;
   padding-right: 70px;
+  max-width: 100%;
 }
 .col-right h2 {
   font-weight: 400;
@@ -261,6 +266,10 @@ body {
 .main-green {
   background-color: #194240;
   color: white;
+}
+.main-green .col img {
+  height: auto;
+  max-width: 100%;
 }
 .sp {
   padding-top: 40px;
@@ -352,7 +361,7 @@ body {
 }
 .img-city img {
   width: 285px;
-  
+  height: auto;
   gap: 10px;
  
 }
@@ -405,6 +414,7 @@ footer {
   list-style-type: none;
 }
 
+
 .ft-col a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -413,9 +423,13 @@ footer {
   font-weight: normal;
   font-style: normal;
   line-height: 35px;
+  
+  
 }
+
 .col6-first {
   padding: 140px 180px 80px 70px;
+  
 }
 .col6-style {
   padding: 70px 100px 60px 70px;
@@ -466,10 +480,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
+  
 }
 .flex-wrap {
   flex-wrap: wrap;
   max-width: 100%;
+  
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -479,11 +499,57 @@ header {
     max-width: 100%;
    
   }
+}
+@media (max-width: 450px) {
+  .main-green .col img {
+    max-width: 100%;
+  }
+  .main-green .col p {
+    font-size: 12px;
+  }
+  .img-bed {
+    padding: 10px 20px;
+  }
+  .main-green h1 {
+    font-size: 40px;
+  }
+  .img-city img {
+    max-width: 200px;
+  }
+}
+@media (max-width: 800px) {
+   
+  .a {
+    display: none;
+  }
+
+  .col6-style, .col6-first {
+    padding: 10px;
+    text-align: center;
+  }
+  .col6-first {
+    padding-left: 70px;
+  }
+  .footer-green .col {
+    flex: 0;
+    max-width: 100%;
+  }
+  .footer-green .row {
+    flex-wrap: wrap;
+  }
+  
+}
+@media (max-width: 1160px){
   .col-img {
-    padding: 50px 20px 0 60px;
+    display: none;
+  }
+
+  .main-pink .col:first-of-type {
+    flex: 0;
   }
  
 }
+
 @media (max-width: 1350px){
   .small-nav {
     display: none;
@@ -497,6 +563,7 @@ header {
   .grey-head .col:nth-of-type(2) {
     flex: 0;
   }
+ 
   
 }
 /* @media (max-width: 800px) {
