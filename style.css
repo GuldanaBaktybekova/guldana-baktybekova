@@ -551,7 +551,7 @@ header {
     overflow: auto;
   }
   .padding-col {
-    max-width: 270px;
+    max-width: 300px;
     
   }
 }
