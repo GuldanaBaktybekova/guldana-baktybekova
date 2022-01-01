@@ -492,7 +492,11 @@ header {
   flex-wrap: wrap;
 }
 
-
+.bars {
+  font-size: 40px;
+  padding-top: 20px;
+  display: none;
+}
 @media (max-width: 1300px){
   
   .img-girl {
@@ -516,11 +520,23 @@ header {
   .img-city img {
     max-width: 200px;
   }
+  .col-4 {
+    max-width: 100%;
+    height: auto;
+  }
+  .col-style {
+    font-size: 12px;
+    line-height: normal;
+    overflow: auto;
+  }
 }
 @media (max-width: 800px) {
    
   .a {
     display: none;
+  }
+  .bars {
+    display: flex;
   }
 
   .col6-style, .col6-first {
