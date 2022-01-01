@@ -581,13 +581,8 @@ header {
   .col6-first {
     padding-left: 70px;
   }
-  .footer-green .col {
-    flex: 0;
-    max-width: 100%;
-  }
-  .footer-green .row {
-    flex-wrap: wrap;
-  }
+
+  
   
 }
 @media (max-width: 1160px){
@@ -600,6 +595,22 @@ header {
 
   .main-pink .col:first-of-type {
     flex: 0;
+  }
+  .footer-green .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    
+  }
+  .col6-style {
+    padding: 0;
+  }
+  .col6-first {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
  
 }
