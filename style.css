@@ -556,13 +556,21 @@ header {
   }
 }
 @media (max-width: 380px) {
+  .btn-nav {
+    margin: 0;
+  }
+  .a-btn {
+    width: 170px;
+  }
   .card img {
     max-width: 200px;
   }
 }
 @media (max-width: 800px) {
 
-
+  .card {
+    padding: 50px;
+  }
   .img-bed {
     padding: 10px 20px;
     max-width: 100%;
@@ -612,7 +620,11 @@ header {
     padding-left: 10px;
     padding-right: 10px;
   }
- 
+ .a-btn {
+   padding: 0;
+
+ }
+
 }
 
 @media (max-width: 1350px){
